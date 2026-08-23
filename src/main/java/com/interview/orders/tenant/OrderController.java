@@ -19,7 +19,7 @@ public class OrderController {
     this.orderRepository = orderRepository;
   }
 
-  @GetMapping("/{orderNumber}")
+  @GetMapping("/{orderNumber}") //example orderNumber = 123
   public OrderResponse getByNumber(
       @PathVariable UUID orgId,
       @PathVariable String orderNumber,
