@@ -14,23 +14,4 @@ Treat the classes in this package as that pull request:
 2. Call out anything you would flag in a real review. Name the underlying issue, not only the symptom.
 3. Propose and apply fixes for the issues you raised. Be ready to explain each change.
 
-## How to verify
-
-Enable and run:
-
-`com.interview.orders.tenant.OrderControllerReviewTest`
-
-```bash
-mvn test -Dtest=OrderControllerReviewTest
-```
-
-(Ask the interviewer to turn the test class on if it is still `@Disabled`.)
-
-## Constraints
-
-- Stay in the `com.interview.orders.tenant` package.
-- Collaborators already in the package are fair game (including unused repository methods).
-- Keep authorization on the server. Do not move access checks to a fictional frontend.
-- Do not add a new security framework. Spring MVC and the existing repository style are enough.
-
 Clarify anything this brief leaves open before you begin.
