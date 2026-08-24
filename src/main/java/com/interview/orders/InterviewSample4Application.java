@@ -1,4 +1,4 @@
-package com.interview.orders.tenant;
+package com.interview.orders;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
